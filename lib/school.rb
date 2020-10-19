@@ -19,7 +19,7 @@ class School
     return roster[student_grade]
   end
 
-  
+
 
 end
 
