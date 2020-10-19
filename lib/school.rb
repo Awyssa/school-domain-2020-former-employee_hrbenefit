@@ -8,8 +8,8 @@ class School
     @student = student
     @class = class
     @grade = grade
-  end 
-  
-end 
+  end
+
+end
 
 school = School.new("Bayside High School")
