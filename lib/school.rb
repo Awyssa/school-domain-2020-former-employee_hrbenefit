@@ -19,8 +19,13 @@ class School
     return roster[student_grade]
   end
 
-
-
+  def sorted
+    sorted = {}
+    roster.each do |grade, students|
+      sorted[grade] = students.sort 
+    end
+    return storted
+  end
 end
 
 
