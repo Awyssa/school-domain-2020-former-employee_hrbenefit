@@ -2,7 +2,7 @@
 class School
   attr_accessor
 
-  GRADES = []
+  roster = {}
 
   def initialize(school)
     @school = school
