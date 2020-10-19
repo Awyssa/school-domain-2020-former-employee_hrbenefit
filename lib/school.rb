@@ -4,10 +4,8 @@ class School
 
   GRADES = []
 
-  def initialize(student, class, grade)
-    @student = student
-    @class = class
-    @grade = grade
+  def initialize(school)
+    @school = school
   end
 
 end
