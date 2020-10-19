@@ -1,6 +1,6 @@
 
 class School
-  attr_accessor :student, :class, :grade
+  attr_accessor
 
   GRADES = []
 
